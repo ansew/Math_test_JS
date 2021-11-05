@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/minus.png" type="image/jpg">
+    <title>Subtraction</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <!-- css animation -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="container">
+            <h2>Vežbamo oduzimanje</h2>
+            <div class="task">
+                <div id="operation"></div>
+                <input type="number" id="result" maxlength="3" autofocus>
+                <button id="checkAns" onclick="checkAnswer()">Proveri</button>
+            </div>
+            <div id="checkTest"></div>
+            <div class="counters">
+                <span class="left counter">           
+                    <img class="thumb up-count" src="./img/heart-up.png" alt="up">               
+                    <div class="thumb up-count" id="up-counter"></div>
+                </span>
+                <span class="right counter">
+                    <img class="thumb dwn-count" src="./img/heart-down.png" alt="up">
+                    <div class="thumb dwn-count" id="dwn-counter"></div>
+                </span>
+            </div>
+        </div>
+    </main>
+    <footer>Made with <span>&#10084;</span> by Mama Vesna <br> <h6> Subtraction 2021.</h6></footer>
+    
+</body>
+</html>
